@@ -1,0 +1,8 @@
+body {
+  height: calc(100vh - 120px);
+}
+
+main {
+  writing-mode: vertical-rl;
+  overflow: scroll;
+}

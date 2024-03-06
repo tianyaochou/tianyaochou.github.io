@@ -6,7 +6,7 @@
     flake-parts.lib.mkFlake { inherit inputs; }
     {
       imports = [ inputs.devenv.flakeModule ];
-      systems = [ "x86_64-linux" ];
+      systems = [ "x86_64-linux" "x86_64-darwin" ];
       perSystem = { pkgs, ... }:{
         devenv.shells.default = {
           packages = with pkgs; [ zlib haskellPackages.hoogle haskell-language-server ];

@@ -1,0 +1,166 @@
+{
+  "profile": {
+    "name": "Tianyao Zhou",
+    "email": "hi@tianyao.ch",
+    "telephone": "+4555224841",
+    "github": "tianyaochou",
+    "linkedin": "tianyaochou"
+  },
+  "educations": [
+    {
+      "institute": "Aarhus University",
+      "program": "MSc. Computer Science",
+      "start": "Sep, 2021",
+      "end": "Jul, 2023",
+      "description": "GPA: 9.33/12 \\\nSpecialization:\n- Logic, Semantics and Verification\n- Programming Languages and Software Security\nThesis: Contextual Refinement and Nondeterminism"
+    },
+    {
+      "institute": "University of Science and Technology of China",
+      "program": "BEng. Computer Science and Technology",
+      "start": "Sep, 2017",
+      "end": "Jul, 2021",
+      "description": "GPA: 3.33/4.3\\\nThesis: A Parser Test Framework Based on ANTLR"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Compiler Engineer",
+      "organization": "Huawei",
+      "location": "Hangzhou",
+      "start": "Mar, 2021",
+      "end": "Jul, 2021",
+      "description": "Internship working on an in-house programming language\n- Found and fixed various about 5 bugs in the parser as a by-product of bachelor's thesis\n- Optimized AST traversing algorithm reducing CI pipeline by 10 minutes\n- Automated the release of language specification using Pandoc"
+    },
+    {
+      "role": "Compiler Engineer",
+      "organization": "Huawei",
+      "location": "Hangzhou",
+      "start": "Jul, 2020",
+      "end": "Aug, 2020",
+      "description": "Internship working on an in-house programming language\n- Fixed many bugs(10+) in various parts of the compiler including parser, type checking, code generation and so on\n- Implemented algorithm for checking mutability of variables"
+    }
+  ],
+  "projects": {
+    "research": [
+      {
+        "name": "Formalisation of Simply-Typed Lambda Calculus with Channel",
+        "keywords": "Coq",
+        "url": "https://github.com/tianyaochou/lambda-ch",
+        "description": "Course project in Formal Software Verification\n- Operational semantics of simply-typed lambda calculus with channel\n- Proof of preservation and weak progress theorem"
+      },
+      {
+        "name": "Case study on Nonmalleability",
+        "description": "Course project in Language-based Security with Félix Ridoux"
+      },
+      {
+        "name": "Verification of Auction Smart Contract",
+        "keywords": "Coq",
+        "description": "Course project in Advanced Topics in Programming Language Theory with with Andreas Stenbæk Larsen"
+      },
+      {
+        "name": "Contextual Refinement and Nondeterminism",
+        "keywords": "Coq, Iris",
+        "description": "Master's thesis\n- Proof of contextual refinement between a fine-grained queue and a coarse-grained one\n- Multirelation semantics of angelic and demonic nondeterministic programming languages\n- Logical relation to prove contextual refinement between programs with only angelic nondeterminism"
+      }
+    ],
+    "software": [
+      {
+        "name": "Dotfiles",
+        "keywords": "Nix, NixOS, IaC",
+        "url": "https://github.com/tianyaochou/dotfiles",
+        "description": "Modulised Configuration and Infrastructure as Code for my computers and servers\n- Modulised configuration of development systems and tools\n- Declarative and deterministic deployments of machines"
+      },
+      {
+        "name": "Student Management System",
+        "keywords": "Ruby on Rails, SQL",
+        "description": "- RESTful API with query\n- Web interface for management"
+      },
+      {
+        "name": "Search Engine",
+        "keywords": "Rust",
+        "url": "https://github.com/tianyaochou/search-engine-rs",
+        "description": "- Pipelined and highly concurrent indexer achieving high CPU utilization and high throughput\n- TF-IDF semantic & boolean search"
+      },
+      {
+        "name": "A Parser Testing Framework Based on ANTLR",
+        "keywords": "C++",
+        "description": "Bachelor's thesis\n- Differential testing on hand-crafted parser\n- Customizable test case generation"
+      },
+      {
+        "name": "Liu - A RSS aggregator",
+        "keywords": "Rust, SQL, Async",
+        "url": "https://github.com/tianyaochou/liu",
+        "description": "- Asynchronous operations\n- Subscribe to RSS/Json feeds"
+      },
+      {
+        "name": "Lazy TinyML",
+        "keywords": "F#",
+        "url": "https://github.com/tianyaochou/lazy-tinyml",
+        "description": "An interpreter for TinyML with lazy evaluation"
+      }
+    ],
+    "hardware": [
+      {
+        "name": "MIPS CPU",
+        "keywords": "CHISEL, FPGA",
+        "url": "https://github.com/tianyaochou/mips32-chisel",
+        "description": "  5-stages multi-cycle MIPS CPU on FPGA\n  - Support basic subset of MIPS\n  - Memory-mapped VGA video output\n  - Paint program that draw with up/down/left/right buttons with color selection"
+      },
+      {
+        "name": "Pipelined RISC-V CPU",
+        "keywords": "Verilog, FPGA",
+        "description": "5-stage Pipelined RV32I CPU on FPGA\n- Level 1 cache\n- 2-bit branch prediction"
+      },
+      {
+        "name": "NixOS on OrangePi 5 Plus",
+        "keywords": "Linux, Embeded, Nix",
+        "url": "https://github.com/tianyaochou/orangepi-5-plus-nixos",
+        "description": "Ported NixOS to OrangePi 5 Plus with\n- mainline u-boot\n- armbian kernel"
+      }
+    ]
+  },
+  "skills": {
+    "programming": {
+      "Proficient": [
+        "C",
+        "C++",
+        "Haskell",
+        "Rust",
+        "Coq",
+        "Python",
+        "Javascript",
+        "Assembly"
+      ],
+      "Familiar": [
+        "F#",
+        "Scala",
+        "Lisp",
+        "Java",
+        "Raku"
+      ]
+    },
+    "tools": [
+      "Linux",
+      "Nix",
+      "NixOS",
+      "Pandoc",
+      "Latex",
+      "Typst",
+      "LLVM",
+      "Git",
+      "SQL Databases",
+      "Docker",
+      "Redis"
+    ]
+  },
+  "languages": {
+    "English": "Proficient(TOFEL 98)",
+    "Chinese": {
+      "Reading": "Simplified & Traditional",
+      "Writing": "Simplified",
+      "Listening": "Mandarin, Cantonese",
+      "Speaking": "Mandarin"
+    },
+    "Danish": "Beginner(DU3 Modul 4)"
+  }
+}
