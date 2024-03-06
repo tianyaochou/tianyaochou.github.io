@@ -16,7 +16,7 @@ executable blog
   main-is:             site.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
-                       hakyll
+                       hakyll, blog, aeson, hakyll-ede
   ghc-options:         -Wall
                        -Wcompat
                        -Widentities
@@ -27,3 +27,21 @@ executable blog
                        -Wpartial-fields
                        -Wredundant-constraints
                        -threaded
+
+library
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5,
+                       hakyll,
+                       aeson >= 2.2, bytestring, unordered-containers,
+                       vector, text, binary, binary-instances, ede >= 0.3
+  hs-source-dirs:      lib
+  exposed-modules:     Helper
+  ghc-options:         -Wall
+                       -Wcompat
+                       -Widentities
+                       -Wincomplete-record-updates
+                       -Wincomplete-uni-patterns
+                       -Wmissing-export-lists
+                       -Wmissing-home-modules
+                       -Wpartial-fields
+                       -Wredundant-constraints

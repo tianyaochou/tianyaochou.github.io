@@ -1,12 +1,19 @@
 body {
     color: black;
-    font-size: 16px;
+    background-color: #e0e0e0;
+    font-family: serif;
+    font-size: calc(16px + 0.5vw);
     margin: 0px auto 0px auto;
-    width: 600px;
+    padding: 0 1rem 0 1rem;
+    max-width: 34em;
+    width: calc(100vw - 2rem);
+    min-height: calc(100vh - 120px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
-div#header {
-    border-bottom: 2px solid black;
+header {
+    border-bottom: 2px solid #292929;
     margin-bottom: 30px;
     padding: 12px 0px 12px 0px;
 }
@@ -14,43 +21,54 @@ div#header {
 div#logo a {
     color: black;
     float: left;
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
 }
 
-div#header #navigation {
+header nav {
     text-align: right;
 }
 
-div#header #navigation a {
+header nav a {
     color: black;
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: bold;
     margin-left: 12px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-div#footer {
+footer {
     border-top: solid 2px black;
     color: #555;
-    font-size: 12px;
+    font-size: 0.5em;
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
     text-align: right;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 2.5em;
+}
+
+h1.title {
+  margin-top: 0;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 div.info {
     color: #555;
-    font-size: 14px;
+    font-size: 1rem;
     font-style: italic;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    width: 100%;
+    overflow: scroll;
+    margin-left: auto;
+    margin-top: 1em;
 }
