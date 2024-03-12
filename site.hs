@@ -76,6 +76,10 @@ main = hakyll $ do
         >>= loadAndApplyTemplate "templates/default.html" indexCtx
         >>= relativizeUrls
 
+  match "CNAME" $ do
+    route idRoute
+    compile copyFileCompiler
+
   match "templates/ede/**" $ compile edeTemplateCompiler
   match "templates/**" $ compile templateCompiler
 
