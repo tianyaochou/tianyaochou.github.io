@@ -71,11 +71,6 @@
         "description": "Modulised Configuration and Infrastructure as Code for my computers and servers\n- Modulised configuration of development systems and tools\n- Declarative and deterministic deployments of machines"
       },
       {
-        "name": "Student Management System",
-        "keywords": "Ruby on Rails, SQL",
-        "description": "- RESTful API with query\n- Web interface for management"
-      },
-      {
         "name": "Search Engine",
         "keywords": "Rust",
         "url": "https://github.com/tianyaochou/search-engine-rs",
@@ -97,6 +92,18 @@
         "keywords": "F#",
         "url": "https://github.com/tianyaochou/lazy-tinyml",
         "description": "An interpreter for TinyML with lazy evaluation"
+      },
+      {
+        "name": "hakyll-ede",
+        "keywords": "Haskell",
+        "url": "https://github.com/tianyaochou/hakyll-ede",
+        "description": "Use ede template in Hakyll"
+      },
+      {
+        "name": "lsnip",
+        "keywords": "Haskell, Language Server Protocol",
+        "url": "https://github.com/tianyaochou/lsnip",
+        "description": "An LSP Server providing custom snippets"
       }
     ],
     "hardware": [
@@ -110,12 +117,6 @@
         "name": "Pipelined RISC-V CPU",
         "keywords": "Verilog, FPGA",
         "description": "5-stage Pipelined RV32I CPU on FPGA\n- Level 1 cache\n- 2-bit branch prediction"
-      },
-      {
-        "name": "NixOS on OrangePi 5 Plus",
-        "keywords": "Linux, Embeded, Nix",
-        "url": "https://github.com/tianyaochou/orangepi-5-plus-nixos",
-        "description": "Ported NixOS to OrangePi 5 Plus with\n- mainline u-boot\n- armbian kernel"
       }
     ]
   },
