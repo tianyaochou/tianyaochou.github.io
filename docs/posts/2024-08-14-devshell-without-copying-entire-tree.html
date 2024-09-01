@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Posts</title>
+  <title>Devshell in flake without copying entire tree</title>
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/default.css" />
   
@@ -22,22 +22,17 @@
     </nav>
   </header>
   <main>
-    Here you can find all my previous posts:
-<ul>
-    
-        <li>
-            <a href="../posts/2024-08-14-devshell-without-copying-entire-tree.html">Devshell in flake without copying entire tree</a> - August 14, 2024
-        </li>
-    
-        <li>
-            <a href="../posts/2015-08-24-vertical.html">竖排测试</a> - August 24, 2015
-        </li>
-    
-        <li>
-            <a href="../posts/2015-08-23-example.html">example post</a> - August 23, 2015
-        </li>
-    
-</ul>
+    <article>
+  <h1 class="title">Devshell in flake without copying entire tree</h1>
+
+  <div class="info">
+      Posted on August 14, 2024
+      
+  </div>
+
+  <p>If your devshell does not rely on project files, put <code>flake.nix</code> in a sub-folder, say <code>.flake</code>. Then use <code>path:.flake</code> instead of <code>.flake</code> to direct nix to find files through filesystem instead of git. This helps avoid copying the entire project to nix store and save spaces.</p>
+<p>This copying can also be avoided by using shell.nix instead of flakes.</p>
+</article>
 
 
   </main>
